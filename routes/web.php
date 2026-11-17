@@ -24,7 +24,7 @@ Route::get('/basic_routing', function () {
 });
 
 // 5.4 View Route
-Route::view('/view_route', 'view_route', ['name' => 'Purnama']);
+Route::view('/view_route', 'view_route', ['name' => 'Zaki Irsyada Putra']);
 
 // 5.5 Controller Route
 Route::get('/controller_route', [RouteController::class, 'index']);
