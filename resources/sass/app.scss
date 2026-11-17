@@ -1,0 +1,149 @@
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Bootstrap Icons
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* Custom Styling for Portfolio Zaki Irsyada Putra (Tugas Modul 09 Nomor 2) */
+:root {
+    --primary-color: #4f46e5;
+    --primary-hover: #4338ca;
+    --secondary-color: #06b6d4;
+    --dark-bg: #0f172a;
+    --card-bg: #ffffff;
+}
+
+body.portfolio-page {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #334155;
+    overflow-x: hidden;
+
+    .navbar {
+        backdrop-filter: blur(12px);
+        background-color: rgba(255, 255, 255, 0.92);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: all 0.3s ease;
+    }
+
+    .navbar-brand {
+        font-weight: 700;
+        color: var(--primary-color) !important;
+    }
+
+    .nav-link {
+        font-weight: 500;
+        color: #475569 !important;
+        transition: color 0.2s ease;
+
+        &:hover,
+        &.active {
+            color: var(--primary-color) !important;
+        }
+    }
+
+    .hero-section {
+        padding: 120px 0 80px 0;
+        background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+        position: relative;
+    }
+
+    .badge-custom {
+        background-color: rgba(79, 70, 229, 0.1);
+        color: var(--primary-color);
+        font-weight: 600;
+        padding: 8px 16px;
+        border-radius: 50px;
+        display: inline-block;
+    }
+
+    .btn-primary-custom {
+        background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+        border: none;
+        color: #fff;
+        padding: 12px 28px;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+
+        &:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+            color: #fff;
+        }
+    }
+
+    .btn-outline-custom {
+        border: 2px solid var(--primary-color);
+        color: var(--primary-color);
+        padding: 12px 28px;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: var(--primary-color);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+    }
+
+    .card-hover {
+        border: none;
+        border-radius: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+
+        &:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .skill-icon-box {
+        width: 60px;
+        height: 60px;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        margin-bottom: 16px;
+        background: #eef2ff;
+        color: var(--primary-color);
+    }
+
+    .project-badge {
+        font-size: 0.75rem;
+        font-weight: 600;
+        padding: 4px 10px;
+        border-radius: 6px;
+    }
+
+    .section-title {
+        font-weight: 800;
+        position: relative;
+        margin-bottom: 12px;
+    }
+
+    .section-subtitle {
+        color: #64748b;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        background-color: #0f172a;
+        color: #94a3b8;
+
+        a {
+            color: #cbd5e1;
+            text-decoration: none;
+            transition: color 0.2s;
+
+            &:hover {
+                color: #38bdf8;
+            }
+        }
+    }
+}
