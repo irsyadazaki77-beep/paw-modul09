@@ -132,6 +132,18 @@ body.portfolio-page {
         margin-bottom: 40px;
     }
 
+    .min-vh-75 {
+        min-height: 75vh;
+    }
+
+    .max-w-xl {
+        max-width: 36rem;
+    }
+
+    .tracking-wide {
+        letter-spacing: 0.05em;
+    }
+
     footer {
         background-color: #0f172a;
         color: #94a3b8;

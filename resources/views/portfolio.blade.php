@@ -67,7 +67,7 @@
 
                     <div class="row mt-5 pt-3 border-top g-4">
                         <div class="col-4">
-                            <h3 class="fw-bold text-dark mb-0">SI-08-03</h3>
+                            <h3 class="fw-bold text-dark mb-0">IS-08-03</h3>
                             <small class="text-muted">Kelas Perkuliahan</small>
                         </div>
                         <div class="col-4">
